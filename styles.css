@@ -82,11 +82,15 @@ input {
 }
 
 .gift-title {
-  margin-bottom: 10px;
+  border: 1px solid black; /* Adds a black border around gift titles */
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .gift-hint {
-  margin-top: 0;
+  border: 1px solid black; /* Adds a black border around gift hints */
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .gift-cover {
