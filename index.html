@@ -13,7 +13,13 @@
       <title>Birthday Gift Site</title>
    </head>
    <body>
-     <div class="header" id="birthdayHeader" style="display: none">
+      <div class="form-container">
+         <form id="birthdayForm">
+            <button type="button" class="buttonSubmit" onclick="displayBirthday()">Celebrate Birthday</button>
+         </form>
+      </div>
+
+      <div class="header" id="birthdayHeader" style="display: none">
          <h1 id="birthdayName"></h1>
          <img id="birthdayImage" src="" alt="Birthday Image" class="avatar" />
          <h2 class="age" id="birthdayAge"></h2>
