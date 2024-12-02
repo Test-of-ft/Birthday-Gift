@@ -72,8 +72,17 @@ input {
   border-radius: 5px;
 }
 
+/* gift section */
 .gift-section {
   margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
 }
 
 .gift-cover {
@@ -119,4 +128,13 @@ input {
   background: url(images/cheers.gif);
   background-size: cover;
   background-position: center;
+}
+
+/* footer */
+.footer {
+  margin-top: 30px;
+}
+
+.footer a {
+  color: white;
 }
