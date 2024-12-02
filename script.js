@@ -1,15 +1,9 @@
 function displayBirthday() {
-   const name = document.getElementById('name').value;
-   const age = document.getElementById('age').value;
-   const dob = new Date(document.getElementById('dob').value);
-   const picture = document.getElementById('picture').files[0];
-
-   const reader = new FileReader();
-   reader.onload = function (e) {
-      document.getElementById('birthdayImage').src = e.target.result;
-   };
-   reader.readAsDataURL(picture);
-
+   const name = Biswajit;
+   const age = 16;
+   const dob = 4/12/2024;
+   const picture = 
+      
    document.getElementById('birthdayName').textContent = `Today is ${name}'s Birthday`;
    document.getElementById('birthdayAge').textContent = `${age} years old`;
    document.getElementById('birthdayDate').textContent = dob.toLocaleDateString();
