@@ -7,7 +7,6 @@ body {
   color: white;
 }
 
-
 /* grouped styles */
 h1,
 h2,
@@ -49,7 +48,7 @@ input {
   padding: 1rem 4rem;
   border-radius: 50px;
   color: #fefefe;
-  background: linear-gradient(to right, #0066cc, #3399ff);
+  background: linear-gradient(#ab0c0ccc, rgba(0, 0, 0, 0.855));
 }
 
 /* header */
@@ -69,28 +68,29 @@ input {
 
 .age,
 .date {
-  background: linear-gradient(to right, #0066cc, #3399ff); /* Blue gradient */
+  background: blue;
   padding: 5px 10px;
   border-radius: 5px;
-  color: white; /* White text */
 }
-
 
 /* gift section */
 .gift-section {
   margin-top: 50px;
+  padding: 20px; /* Adds space around the content */
+  background: rgba(255, 255, 255, 0.1); /* Optional: Adds transparency to the background */
+  border-radius: 10px; /* Optional: rounded corners */
+  border: 2px solid blue; /* Adds border around the section */
 }
 
-.gift-title {
-  border: 1px solid black; /* Adds a black border around gift titles */
-  padding: 5px;
-  border-radius: 5px;
-}
-
+.gift-title,
 .gift-hint {
-  border: 1px solid black; /* Adds a black border around gift hints */
-  padding: 5px;
-  border-radius: 5px;
+  background: url('images/your-texture.gif') no-repeat center center; /* Texture applied */
+  background-size: cover;
+  padding: 10px;
+  border: 2px solid black; /* Adds a border around the text */
+  border-radius: 5px; /* Optional: rounded corners */
+  color: white; /* Text color to make it readable */
+  font-weight: bold;
 }
 
 .gift-cover {
