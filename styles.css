@@ -49,7 +49,7 @@ input {
   padding: 1rem 4rem;
   border-radius: 50px;
   color: #fefefe;
-  background: linear-gradient(#ab0c0ccc, rgba(0, 0, 0, 0.855));
+  background: linear-gradient(to right, #0066cc, #3399ff);
 }
 
 /* header */
@@ -69,10 +69,12 @@ input {
 
 .age,
 .date {
-  background: #6f0505cc;
+  background: linear-gradient(to right, #0066cc, #3399ff); /* Blue gradient */
   padding: 5px 10px;
   border-radius: 5px;
+  color: white; /* White text */
 }
+
 
 /* gift section */
 .gift-section {
